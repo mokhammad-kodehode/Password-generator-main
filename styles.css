@@ -73,6 +73,146 @@ p{
     gap: 1rem;
 }
 
+
+.btn {
+    background: #10B981;
+    border-radius: 6px;
+    color: #fdfcff;
+    border: none;
+    padding: 13px;
+    font-size: 16px;
+}
+
+.inp {
+    width: 50px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.checksym {
+    width: 20px;
+    height: 20px;
+}
+
+.check {
+    display: flex;
+    color: #fdfcff;
+    align-items: center;
+    gap: 5px;
+}
+
+.passsettings {
+    display: flex;
+    gap: 30px;
+}
+
+.checkbox{
+
+        transform: scale(1.5); 
+    }
+
+.copy {
+    bottom: 30%;
+    display: none;
+    color: white;
+    position: absolute;
+    background: #10B981;
+    border-radius: 6px;
+    z-index: 1;
+    padding: 20px;
+    font-size: 22px;
+}
+
+label {
+    font-size: 18px;
+}
+
+
+@media (max-width: 844px) {
+    
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    height:100vh;
+    background-color: #1F2937 ;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.line_one {
+    width: 400px;
+    height: 1px;
+    background-color: #d1d1d1;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 58px;
+    margin: 0;
+}
+
+.pass {
+    color: #4ADF86
+;
+}
+
+p{
+    color: #D5D4D8;
+    font-size: 18px;
+}
+
+.results{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 7px;
+}
+
+
+
+.passout {
+    color: white;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+    width: 110px;
+    height: 20px;
+    background-color: #505a69;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.maxl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 .btn {
     background: #10B981;
     border-radius: 6px;
@@ -132,5 +272,4 @@ input:focus {
     padding: 20px;
     font-size: 22px;
 }
-
-
+}
